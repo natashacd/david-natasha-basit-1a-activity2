@@ -25,3 +25,54 @@ text-shadow: 2px 2px #0a0a0a;
     font-size: 25px;
     text-shadow: 2px 2px #0a0a0a;
 }
+img{
+    height: 220px;
+    width: 380px;
+}
+#blog{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    margin-top: 250px;
+}
+#blog h2{
+    font-size: 40px;
+    margin-top: -80px;
+    position: absolute;
+}
+div{
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border:1px solid rgba(128, 128, 128, 0.493);
+    background-color: whitesmoke;
+    width: 380px;
+    margin: 10px;
+    height: 430px;
+}
+div:nth-child(4) {
+    background-color: rgba(0, 0, 0, 0.918);
+    color: white;
+    border:1px solid black;
+}
+h3{
+    padding: 20px 35px;
+    font-size: 25px;
+}
+p:first-of-type{
+    padding-left: 28px;
+    padding-right: 35px;
+    text-align: justify;
+    font-size: 17px;
+    padding-bottom: 25px;
+}
+a{
+    text-decoration: none;
+    padding-left: 28px;
+    font-size: 17px; 
+    color: gray;
+}
+a:hover{
+    color: orangered;
+    transition: .5s ease;
+    cursor: pointer;
+}
