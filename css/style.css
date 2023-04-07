@@ -76,3 +76,41 @@ a:hover{
     transition: .5s ease;
     cursor: pointer;
 }
+#services{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    margin-top: 150px;
+    background-color: whitesmoke;
+    height: 50vh;
+    align-items: center;
+    text-align: center;
+}
+#services h2{
+    font-size: 40px;
+    position: absolute;
+    margin-bottom: 50px;
+    margin-top: -100px;
+}
+ul,li{
+    display: flex;
+    margin: 25px;
+    margin-top: 80px;
+}
+li{
+    background-color: white;
+    height: 100px;
+    width: 230px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+     font-size: 18px; 
+     font-weight: lighter;
+}
+li:first-child{
+    background-color: orangered;
+    transform: .3 ease;
+}
+li:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
